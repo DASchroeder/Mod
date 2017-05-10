@@ -212,6 +212,22 @@
     <Compile Include="Migrations\201705101411539_PopulateMembershipTypes.Designer.cs">
       <DependentUpon>201705101411539_PopulateMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705101421288_ApplyAnnotationsToCustomerName.cs" />
+    <Compile Include="Migrations\201705101421288_ApplyAnnotationsToCustomerName.Designer.cs">
+      <DependentUpon>201705101421288_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705101439313_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201705101439313_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201705101439313_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705101442207_SetNameOfMembershipTypes.cs" />
+    <Compile Include="Migrations\201705101442207_SetNameOfMembershipTypes.Designer.cs">
+      <DependentUpon>201705101442207_SetNameOfMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705101517482_DeleteBdayFromCustomer.cs" />
+    <Compile Include="Migrations\201705101517482_DeleteBdayFromCustomer.Designer.cs">
+      <DependentUpon>201705101517482_DeleteBdayFromCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -317,6 +333,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705101411539_PopulateMembershipTypes.resx">
       <DependentUpon>201705101411539_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705101421288_ApplyAnnotationsToCustomerName.resx">
+      <DependentUpon>201705101421288_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705101439313_AddNameToMembershipType.resx">
+      <DependentUpon>201705101439313_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705101442207_SetNameOfMembershipTypes.resx">
+      <DependentUpon>201705101442207_SetNameOfMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705101517482_DeleteBdayFromCustomer.resx">
+      <DependentUpon>201705101517482_DeleteBdayFromCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
