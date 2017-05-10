@@ -10,6 +10,7 @@ namespace Mod.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            ContextKey = "Mod.Models.ApplicationDbContext";
         }
 
         protected override void Seed(Mod.Models.ApplicationDbContext context)
