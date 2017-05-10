@@ -208,9 +208,26 @@
     <Compile Include="Migrations\201705101723257_PopulateMembership.Designer.cs">
       <DependentUpon>201705101723257_PopulateMembership.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705101805068_AddedMovieDetails.cs" />
+    <Compile Include="Migrations\201705101805068_AddedMovieDetails.Designer.cs">
+      <DependentUpon>201705101805068_AddedMovieDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705101814353_AddedGenre.cs" />
+    <Compile Include="Migrations\201705101814353_AddedGenre.Designer.cs">
+      <DependentUpon>201705101814353_AddedGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705101817459_AddedGenreTypes.cs" />
+    <Compile Include="Migrations\201705101817459_AddedGenreTypes.Designer.cs">
+      <DependentUpon>201705101817459_AddedGenreTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705101822193_AddedRequirementsToMovie.cs" />
+    <Compile Include="Migrations\201705101822193_AddedRequirementsToMovie.Designer.cs">
+      <DependentUpon>201705101822193_AddedRequirementsToMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -310,6 +327,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705101723257_PopulateMembership.resx">
       <DependentUpon>201705101723257_PopulateMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705101805068_AddedMovieDetails.resx">
+      <DependentUpon>201705101805068_AddedMovieDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705101814353_AddedGenre.resx">
+      <DependentUpon>201705101814353_AddedGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705101817459_AddedGenreTypes.resx">
+      <DependentUpon>201705101817459_AddedGenreTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705101822193_AddedRequirementsToMovie.resx">
+      <DependentUpon>201705101822193_AddedRequirementsToMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
