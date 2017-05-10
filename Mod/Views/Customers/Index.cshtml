@@ -39,6 +39,10 @@ else
                 <td>@customer.MembershipType.DiscountRate%</td>
             </tr>
         }
+        <p>
+            @Html.ActionLink("New Customer", "New", "Customers", null, new { @class = "btn btn-primary" })
+        </p>
+
         </tbody>
     </table>
 }
