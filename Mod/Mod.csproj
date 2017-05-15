@@ -224,6 +224,10 @@
     <Compile Include="Migrations\201705101822193_AddedRequirementsToMovie.Designer.cs">
       <DependentUpon>201705101822193_AddedRequirementsToMovie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705152006365_AddedValidationAnnotation.cs" />
+    <Compile Include="Migrations\201705152006365_AddedValidationAnnotation.Designer.cs">
+      <DependentUpon>201705152006365_AddedValidationAnnotation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -345,6 +349,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705101822193_AddedRequirementsToMovie.resx">
       <DependentUpon>201705101822193_AddedRequirementsToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705152006365_AddedValidationAnnotation.resx">
+      <DependentUpon>201705152006365_AddedValidationAnnotation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
