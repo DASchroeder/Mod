@@ -8,6 +8,7 @@ using Mod.Models;
 
 namespace Mod.Controllers.API
 {
+    //Comment to test Git, delete after use
     public class CustomersController : ApiController
     {
         private ApplicationDbContext _context;
