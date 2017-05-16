@@ -204,6 +204,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
+    <Compile Include="DTO\CustomerDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -238,6 +239,22 @@
     <Compile Include="Migrations\201705152006365_AddedValidationAnnotation.cs" />
     <Compile Include="Migrations\201705152006365_AddedValidationAnnotation.Designer.cs">
       <DependentUpon>201705152006365_AddedValidationAnnotation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705161912208_MembershipTypeRequired.cs" />
+    <Compile Include="Migrations\201705161912208_MembershipTypeRequired.Designer.cs">
+      <DependentUpon>201705161912208_MembershipTypeRequired.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705161945347_AddCustomerDataAnnotation.cs" />
+    <Compile Include="Migrations\201705161945347_AddCustomerDataAnnotation.Designer.cs">
+      <DependentUpon>201705161945347_AddCustomerDataAnnotation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705162010153_AddRequiredMembType.cs" />
+    <Compile Include="Migrations\201705162010153_AddRequiredMembType.Designer.cs">
+      <DependentUpon>201705162010153_AddRequiredMembType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705162015178_RemovedRequMembType.cs" />
+    <Compile Include="Migrations\201705162015178_RemovedRequMembType.Designer.cs">
+      <DependentUpon>201705162015178_RemovedRequMembType.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -363,6 +380,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705152006365_AddedValidationAnnotation.resx">
       <DependentUpon>201705152006365_AddedValidationAnnotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705161912208_MembershipTypeRequired.resx">
+      <DependentUpon>201705161912208_MembershipTypeRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705161945347_AddCustomerDataAnnotation.resx">
+      <DependentUpon>201705161945347_AddCustomerDataAnnotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705162010153_AddRequiredMembType.resx">
+      <DependentUpon>201705162010153_AddRequiredMembType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705162015178_RemovedRequMembType.resx">
+      <DependentUpon>201705162015178_RemovedRequMembType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
